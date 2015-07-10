@@ -50,6 +50,7 @@ h3 {
 	border: 50px solid transparent;
 	border-bottom: 70px solid red;
 	position: relative;
+  margin:auto;
 	top: -50px;
 }
 
@@ -71,11 +72,74 @@ h3 {
     border-color: black;
     border-style: solid;
     border-width: 1px;
-    left: 100px;
+    left: 70px;
+    top: 150px;
+    z-index: 1;
+    background-color: white;
+    transform: rotate(-27deg);
+}
+
+#king {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    left: 140px;
+    top: 150px;
+    z-index: 1;
+    background-color: white;
+    transform: rotate(-13deg);
+}
+
+#queen {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    left: 210px;
     top: 150px;
     z-index: 1;
     background-color: white;
 }
+#jack {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    left: 270px;
+    top: 150px;
+    z-index: 1;
+    background-color: white;
+    transform: rotate(13deg);
+}
+#ten {
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    left: 330px;
+    top: 150px;
+    z-index: 1;
+    background-color: white;    
+    transform: rotate(27deg);
+}
 
+.card{
+  border-radius:10px;
+}
 
+.all_cards{
+  position:absolute;
+  right:0px;
+  width: 850px;
+
+}
 
